@@ -1,0 +1,5 @@
+En esta carpeta se guardan los respaldos de la base de datos que genera el sistema.
+Al apretar "Crear respaldo ahora" aparece aca un archivo .sql con la fecha y la hora.
+El archivo .htaccess bloquea esta carpeta: nadie puede bajar un respaldo escribiendo
+la direccion en el navegador. Se descargan solo desde la pantalla Respaldo, que es
+solo para el administrador.

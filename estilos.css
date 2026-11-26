@@ -1,0 +1,286 @@
+body {
+    background-color: #f2f3f5;
+    color: #1f2937;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+}
+
+.barra {
+    background-color: #1b2130;
+    border-bottom: 3px solid #d0112b;
+}
+
+.barra .navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.logo {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 6px;
+    border-radius: 8px;
+    background-color: #d0112b;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 800;
+}
+
+.marca-sub {
+    font-weight: 400;
+    color: #9aa3b2;
+}
+
+.barra .nav-link {
+    color: #c9ced8;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.barra .nav-link:hover {
+    color: #ffffff;
+    background-color: #2a3246;
+}
+
+.barra .nav-link.active {
+    color: #ffffff;
+    background-color: #d0112b;
+}
+
+.usuario-menu {
+    color: #ffffff;
+}
+
+.avatar {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 6px;
+    border-radius: 50%;
+    background-color: #d0112b;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.rol-administrador {
+    background-color: #d0112b;
+}
+
+.rol-vendedor {
+    background-color: #5b6475;
+}
+
+.contenido h2 {
+    font-weight: 700;
+    border-left: 5px solid #d0112b;
+    padding-left: 12px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    padding: 14px 20px;
+    border-bottom: 1px solid #eceef1;
+    font-weight: 600;
+}
+
+.card-header:first-child {
+    border-radius: 12px 12px 0 0;
+}
+
+.table {
+    --bs-table-striped-bg: #f7f8fa;
+    --bs-table-hover-bg: #fdecee;
+}
+
+.table thead th {
+    background-color: #1b2130;
+    border-color: #1b2130;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.card .table {
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    --bs-btn-bg: #1b2130;
+    --bs-btn-border-color: #1b2130;
+    --bs-btn-hover-bg: #d0112b;
+    --bs-btn-hover-border-color: #d0112b;
+    --bs-btn-active-bg: #a80d22;
+    --bs-btn-active-border-color: #a80d22;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #1b2130;
+    --bs-btn-border-color: #1b2130;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #1b2130;
+    --bs-btn-hover-border-color: #1b2130;
+    --bs-btn-active-bg: #1b2130;
+    --bs-btn-active-border-color: #1b2130;
+}
+
+.btn-rojo {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: #d0112b;
+    --bs-btn-border-color: #d0112b;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #a80d22;
+    --bs-btn-hover-border-color: #a80d22;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #a80d22;
+    --bs-btn-active-border-color: #a80d22;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #d0112b;
+    box-shadow: 0 0 0 3px rgba(208, 17, 43, 0.15);
+}
+
+.alert {
+    border: none;
+    border-left: 5px solid;
+    border-radius: 8px;
+}
+
+.tarjeta {
+    border-top: 4px solid #1b2130;
+}
+
+.tarjeta-azul {
+    border-top-color: #2563eb;
+}
+
+.tarjeta-verde {
+    border-top-color: #16a34a;
+}
+
+.tarjeta-amarilla {
+    border-top-color: #d97706;
+}
+
+.tarjeta-roja {
+    border-top-color: #d0112b;
+}
+
+.tarjeta-titulo {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #6b7280;
+}
+
+.numero-tarjeta {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.tarjeta-detalle {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.tarjeta-enlace {
+    font-size: 14px;
+    font-weight: 600;
+    color: #d0112b;
+    text-decoration: none;
+}
+
+.tarjeta-enlace:hover {
+    text-decoration: underline;
+}
+
+.resumen {
+    background-color: #1b2130;
+    color: #ffffff;
+}
+
+.resumen .tarjeta-titulo {
+    color: #9aa3b2;
+}
+
+.numero-resumen {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.stock-bajo {
+    color: #d0112b;
+    font-weight: bold;
+}
+
+.fondo-login {
+    min-height: 100vh;
+    background-color: #1b2130;
+    background-image: linear-gradient(135deg, #1b2130 55%, #4a0f1a 100%);
+}
+
+.caja-login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 70px 15px 30px 15px;
+}
+
+.logo-grande {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    margin-right: 0;
+    border-radius: 16px;
+    font-size: 32px;
+}
+
+.titulo-login {
+    margin-top: 14px;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.subtitulo-login {
+    color: #9aa3b2;
+}
+
+.pie-login {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #9aa3b2;
+}
+
+.pie {
+    margin-top: 30px;
+    padding: 18px 0;
+    border-top: 1px solid #e5e7eb;
+    background-color: #ffffff;
+    color: #6b7280;
+    font-size: 13px;
+    text-align: center;
+}
+
+.tarjeta .card-body {
+    min-height: 140px;
+}
